@@ -89,6 +89,7 @@
                                 <div class="p-2 mt-4">
                                     
 
+<<<<<<< HEAD
                                     {{ html()->form('POST')->route('admin.login.post')->open() }}
 
                                         <div class="mb-3 {{ $errors->has('email') ? ' has-error' : '' }}">
@@ -104,6 +105,23 @@
                                                 {{html()->password('password')->class('form-control')->id('email')->placeholder('Password')}}
                                                 <button class="btn btn-link position-absolute end-0 top-0 text-decoration-none text-muted password-addon" type="button" id="password-addon"><i class="ri-eye-fill align-middle"></i></button>
                                                 <small class="text-danger">{{ $errors->first('password') }}</small>
+=======
+                                    <form action="https://themesbrand.com/velzon/html/saas/index.html">
+
+                                        <div class="mb-3">
+                                            <label for="username" class="form-label">Username</label>
+                                            <input type="text" class="form-control" id="username" placeholder="Enter username">
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <div class="float-end">
+                                                <a href="auth-pass-reset-basic.html" class="text-muted">Forgot password?</a>
+                                            </div>
+                                            <label class="form-label" for="password-input">Password</label>
+                                            <div class="position-relative auth-pass-inputgroup mb-3">
+                                                <input type="password" class="form-control pe-5 password-input" placeholder="Enter password" id="password-input">
+                                                <button class="btn btn-link position-absolute end-0 top-0 text-decoration-none text-muted password-addon" type="button" id="password-addon"><i class="ri-eye-fill align-middle"></i></button>
+>>>>>>> origin/main
                                             </div>
                                         </div>
 
@@ -115,7 +133,11 @@
                                         <div class="mt-4">
                                             <button class="btn btn-success w-100" type="submit">Sign In</button>
                                         </div>
+<<<<<<< HEAD
                                     {{ html()->form()->close() }}
+=======
+                                    </form>
+>>>>>>> origin/main
 
                                 </div>
                             </div>
@@ -157,7 +179,10 @@
     <script src="{{asset('admin-assets/libs/feather-icons/feather.min.js')}}"></script>
     <script src="{{asset('admin-assets/js/pages/plugins/lord-icon-2.1.0.js')}}"></script>
     <script src="{{asset('admin-assets/js/pages/password-addon.init.js')}}"></script>
+<<<<<<< HEAD
     <script src="{{asset('admin-assets/js/pages/password-addon.init.js')}}"></script>
+=======
+>>>>>>> origin/main
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 
     @if (Session::has('message'))

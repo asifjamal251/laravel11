@@ -1,6 +1,10 @@
 <!doctype html>
+<<<<<<< HEAD
 <html lang="en" data-layout="horizontal" data-topbar="dark" data-sidebar-size="lg" data-sidebar="light" data-sidebar-image="none" data-preloader="enable">
 
+=======
+<html lang="en" data-layout="vertical" data-topbar="light" data-sidebar="dark" data-sidebar-size="lg" data-sidebar-image="none">
+>>>>>>> origin/main
 <head>
 
     <meta charset="utf-8" />
@@ -77,6 +81,7 @@
     </button>
     <!--end back-to-top-->
 
+<<<<<<< HEAD
     <div id="preloader">
         <div id="status">
             <div class="spinner-border text-primary avatar-sm" role="status">
@@ -85,6 +90,8 @@
         </div>
     </div>
 
+=======
+>>>>>>> origin/main
     <div class="customizer-setting d-none d-md-block">
         <div class="btn-info btn-rounded shadow-lg btn btn-icon btn-lg p-2" data-bs-toggle="offcanvas" data-bs-target="#theme-settings-offcanvas" aria-controls="theme-settings-offcanvas">
             <i class='mdi mdi-spin mdi-cog-outline fs-22'></i>

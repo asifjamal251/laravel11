@@ -65,7 +65,10 @@
 
                     <div id="two-column-menu">
                     </div>
+<<<<<<< HEAD
                     <div class="d-flex align-items-center gap-10 justify-content-between">
+=======
+>>>>>>> origin/main
                     <ul class="navbar-nav" id="navbar-nav">
 
                         @foreach ($menus as $menu)
@@ -107,6 +110,7 @@
 
                     
                     </ul>
+<<<<<<< HEAD
 
                     {{-- <ul class="navbar-nav">
                         <li class="nav-item">
@@ -129,6 +133,8 @@
                         </li>
                     </ul> --}}
                 </div>
+=======
+>>>>>>> origin/main
                 </div>
                 <!-- Sidebar -->
             </div>

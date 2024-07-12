@@ -66,11 +66,19 @@ class AdminController extends Controller
      */
         public function store(Request $request) {
 
+<<<<<<< HEAD
             $request->validate([
                 'name'=>'required|string|max:255',
                 'password'=>'required|string|min:6',
                 'role'=>'required',
                 'email'=>'required|email|max:255|unique:admins', 
+=======
+            $this->validate($request,[
+                'name'=>'required|string|max:255',
+                'password'=>'required|string|min:6',
+                'role'=>'required',
+                'email'=>'required|email|max:255|unique:admins',    
+>>>>>>> origin/main
             ]);
 
             $admin = new Admin;

@@ -59,7 +59,52 @@ $endDate = $todayDate;
 
 @section('filter')
 <!-- top offcanvas -->
+<<<<<<< HEAD
 
+=======
+<div class="offcanvas offcanvas-end border-0" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+    
+    <div class="d-flex align-items-center bg-primary bg-gradient p-3 offcanvas-header">
+        <h5 class="m-0 me-2 text-white">Dasboard Filters</h5>
+
+        <button type="button" class="btn-close btn-close-white ms-auto" id="customizerclose-btn" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+
+
+    <div class="offcanvas-body bg-light">
+
+        <div class="card">
+            <div class="card-header pt-2 pb-2">
+                <h6 class="card-title mb-0">Date</h6>
+            </div>
+
+            <div class="card-body">
+                {!! Form::open(['method' => 'POST', 'route' => 'admin.dashboard.filter', 'class' => 'form-horizontal', 'id'=>'filterForm']) !!}
+                    <div id="reportrange" class="form-icon w-100" style="width: 280px;text-align:center;cursor:pointer;">
+                        <span><input style="cursor:pointer;" type="text" class="form-control form-control-sm form-control-icon" name="datefilter" value="{{Carbon::parse($startDate)->format('d F Y')}} - {{Carbon::parse($endDate)->format('d F Y')}}" /></span> <i class="fa fa-calendar"></i>
+                    </div>
+                {!! Form::close() !!}
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <div class="offcanvas-footer border-top p-3 text-center">
+        <div class="row">
+            <div class="col-6">
+                <button type="button" class="btn btn-light w-100" id="reset-layout">Reset</button>
+            </div>
+            <div class="col-6">
+                <a href="https://1.envato.market/velzon-admin" target="_blank" class="btn btn-primary w-100">Buy Now</a>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+>>>>>>> origin/main
 @endsection
 
 

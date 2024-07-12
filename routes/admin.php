@@ -30,7 +30,11 @@ Route::middleware('admin.guest')->group(function() {
    
 });
 
+<<<<<<< HEAD
 Route::middleware('admin.auth')->group(function() {
+=======
+Route::middleware('admin')->group(function() {
+>>>>>>> origin/main
 
     Route::get('logout', [LoginController::class, 'logout'])->name('logout');
     Route::get('dashboard', [DashboardController::class, 'index'])->name('dashboard.index')->middleware('can:browse_dashboard');

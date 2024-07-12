@@ -36,11 +36,16 @@
                 <div class="card">
                     
                     <div class="card-body">
+<<<<<<< HEAD
                         <!-- Vertical alignment -->
 <div class="table-responsive">
 
                         <table id="datatable" class="datatable table table-sm align-middle table-bordered border-secondary table-nowrap">
                             <thead class="table-light">
+=======
+                        <table id="datatable" class="datatable table table-bordered nowrap align-middle" style="width:100%">
+                            <thead>
+>>>>>>> origin/main
                             <tr>
                                 <th>Si.</th>
                               <th>Name</th>
@@ -54,7 +59,10 @@
                        
                         </table>
                     </div>
+<<<<<<< HEAD
                     </div>
+=======
+>>>>>>> origin/main
                 </div>
             </div><!--end col-->
         </div><!--end row-->
