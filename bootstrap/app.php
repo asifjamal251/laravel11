@@ -27,11 +27,8 @@ return Application::configure(basePath: dirname(__DIR__))
         ]);
         $middleware->alias([
             'admin.guest' => RedirectIfAuthenticated::class,
-<<<<<<< HEAD
             'admin.auth' => RedirectIfNotAuthenticated::class,
-=======
             'admin' => RedirectIfNotAuthenticated::class,
->>>>>>> origin/main
             'can' => Authorize::class,
         ]);
     })
